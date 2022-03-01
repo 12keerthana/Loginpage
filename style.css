@@ -1,0 +1,72 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img1.jfif);
+
+  background-size: cover;
+  background-position: center;
+}
+
+.register {
+  width: 360px;
+  margin: auto;
+  padding: 10% 0 0;
+}
+
+.login {
+  width: 360px;
+  margin: auto;
+  padding: 10% 0 0;
+}
+
+.form {
+  position: relative;
+  background-color: #9cc3d5ff;
+  max-width: 400px;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: 5;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+
+  background: #adefd1ff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: #00203fff;
+
+  text-transform: uppercase;
+  border: 0;
+
+  font-size: medium;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+  background: #43a047;
+}
+
+.form .msg {
+  margin: 15px 0 0;
+}
+
+.form .msg a {
+  text-decoration: none;
+}
